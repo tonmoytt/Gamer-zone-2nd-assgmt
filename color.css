@@ -1,88 +1,574 @@
- header{
+ header {
     padding: 20px 120px;
  }
- .span{
+
+ .span {
     color: rgb(228, 69, 143);
  }
- .gamerdiv{
+
+ .gamerdiv {
     display: flex;
     align-items: center;
-    /* padding-bottom: 30px; */
+
  }
- #navimg{
-height: 25px;
-width: 50px;
-margin-right: 15px;
- 
+
+ #navimg {
+    height: 30px;
+    width: 60px;
+    margin-right: 15px;
+
  }
- .headerdiv{
+
+ .headerdiv {
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
  }
- nav ul{
+
+ nav ul {
     display: flex;
     list-style: none;
  }
- nav li{
+
+ nav li {
     margin-right: 30px;
     font-size: 20px;
  }
- nav li a{
+
+ nav li a {
     text-decoration: none;
-   
+
  }
 
- .followbtn{
+ .followbtn {
     background-color: darkgray;
     padding: 15px;
     font-size: 20px;
     border-radius: 5px;
-     
+
  }
+
+
+ /*  secend section */
+ .main {
+    padding: 20px 120px 0px 0px;
+
+ }
+
+ .secenddiv {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 600px 500px;
+ }
+
+ .playgoat {
+    padding-left: 120px;
+ }
+
+ .play {
+    font-size: 28px;
+ }
+
+ .goat {
+    font-size: 40px;
+    color: rgb(190, 81, 237);
+ }
+
+ .sign {
+    border: 1px solid white;
+    color: azure;
+    font-size: 15px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color: rgb(246, 52, 168);
+    margin-right: 20px;
+ }
+
+ .rogue {
+    border: 1px solid white;
+    color: azure;
+    font-size: 15px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    background-color: rgb(102, 214, 254);
+ }
+
+ .Groupimg {
+    height: 500px;
+    width: 500px;
+ }
+
+
+ /*  3nd section */
+ .section-backround {
+    background-color: rgb(250, 244, 249);
+
+ }
+
+ .thirddiv {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 50px 120px 20px 120px;
+
+
+ }
+
+ .font1 {
+    font-size: 30px;
+ }
+
+ .color-tag {
+    color: darkgrey;
+ }
+
+ .font {
+    font-size: 23px;
+    margin-left: 20px;
+ }
+
+ .groupimg2 {
+    height: 300px;
+    width: 500px;
+ }
+
+
+ /* <!--  four section --> */
+ .funny-section {
+    text-align: center;
+    margin-top: 80px;
+ }
+
+ .mainimgdiv {
+    display: flex;
+    padding: 20px 100px 20px 100px;
+
+
+
+ }
+
+ .imgdiv3 {
+    height: 300px;
+    margin-right: 20px;
+ }
+
+ /* .hover:hover{
+    background-color: red;
+    
+ } */
+
+ .font3 {
+    font-size: 20px;
+    color: rgb(120, 117, 117);
+
+ }
+
+
+
+
+ /*    fifth section */
+
+ .instanly {
+    color: rgb(228, 69, 143);
+    font-size: 30px;
+ }
+
+ .instanly2 {
+    font-size: 29px;
+ }
+
+ .class5 {
+    margin-bottom: 150px;
+ }
+
+ .fifthdiv {
+
+    display: flex;
+    justify-content: space-between;
+
+    /* align-items: center; */
+ }
+
+ .fifth-text {
+    padding: 50px 220px 50px 250px;
+ }
+
+ .imgdiv5 {
+
+    display: inline-block;
+ }
+
+ .imgdiv5-1 {
+
+    height: 400px;
+    width: 400px;
+    position: absolute;
+
+ }
+
+ .imgdiv5-2 {
+    bottom: -200px;
+    left: -80px;
+    position: relative;
+
+    height: 230px;
+    width: 200px;
+
+ }
+
+
+
+
+ /*  six section */
+
+ .icon1 {
+    align-items: center;
+
+    display: flex;
+    background-color: white;
+    padding-right: 10px;
+
+    margin: 20px;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+ }
+
+ .iconsize {
+    height: 50px;
+    width: 50px;
+ }
+
+
+ .backround-color {
+    background-color: rgb(250, 244, 249);
+    padding: 50px 120px;
+ }
+
+ /* .mainicondiv1{
+    display: flex;
+    justify-content: space-between;
+   } */
+ .mainicondiv1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 60px;
+    margin-bottom: 150px;
+
+ }
+
+ .icon1:hover {
+    border: 2px solid red;
+    border-radius: 20px;
+
+ }
+
+ .icon1 small {
+    padding-left: 5px;
+ }
+
+
+
+
+
+
+ /*      footer section   */
+.footheader{
+   text-align: center;
+}
+
+
+
+
+ /*  RESPONSIVE Small Device */
+ @media screen and (max-width:576px) {
+
+
+
+    header {
+       padding: 10px 10px;
+       padding-left: 60px;
+    }
+
+    .headerdiv {
+       flex-direction: column;
+       margin-bottom: 5px;
+    }
+
+    .gamerdiv {
+       text-align: center;
+       justify-content: center;
+    }
+
+    nav ul {
+       flex-direction: column;
+       padding: 10px 0;
+       text-align: center;
+
+    }
+
+    ul li {
+       margin: 30px;
+    }
+
+    .gamerdiv {
+       font-size: 40px;
+    }
+
+    #navimg {
+       height: 45px;
+       width: 95px;
+
+    }
+
+    .followbtn {
+       font-size: 25px;
+    }
+
+    /*  header section two */
+    .main {
+       padding: 20px;
+    }
+
+    .secenddiv {
+       flex-direction: column;
+       flex-direction: column-reverse;
+
+       background-repeat: no-repeat;
+       background-position: bottom;
+       background-size: 500px 440px;
+    }
+
+    .playgoat {
+
+
+       padding-top: 30px;
+       padding-bottom: 100px;
+       padding-right: 120px;
+       align-items: center;
+    }
+
+    .Groupimg {
+       height: 400px;
+       width: 400px;
+    }
+
+    .sign,
+    .rogue {
+       font-size: 10px;
+
+       padding: 10px 17px;
+
+       margin-right: 10px;
+    }
+
+    .btndiv {
+       display: flex;
+
+    }
+
+    /*  third section */
+
+    .section-backround {
+       background-color: rgb(255, 255, 255)
+    }
+
+    .thirddiv {
+
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+       padding: 30px;
+
+
+    }
+
+    .box-padding {
+       text-align: center;
+    }
+
+    /*  four section */
+
+    .mainimgdiv {
+       flex-direction: column;
+       text-align: center;
+       padding: 20px;
+    }
+
+    .imgdiv3 {
+       height: 300px;
+       width: 300px;
+       /* margin-right: 20px; */
+    }
+
+    .font3 {
+       font-size: 15px;
+
+    }
+
+    /*  fifth section */
+
+    .fifth-text {
+       padding: 30px;
+    }
+
+    .fifthdiv {
+
+       flex-direction: column;
+       text-align: center;
+
+    }
+
+    .imgdiv5 {
+       width: 50%;
+       margin: auto;
+       text-align: center;
+    }
+
+    .imgdiv5-1 {
+       height: 300px;
+       width: 230px;
+       position: absolute;
+    }
+
+    .imgdiv5-2 {
+       bottom: -200px;
+       left: -30px;
+       position: relative;
+
+       height: 170px;
+       width: 150px;
+
+    }
+
+
+    /*   six section  */
+    .backround-color {
+
+       padding: 20px;
+    }
+
+    .mainicondiv1 {
+
+       grid-template-columns: repeat(3, 1fr);
+
+       margin-bottom: 150px;
+
+    }
+
+    .phonediv1 {
+       display: flex;
+    }
+
+
+ }
+
+
+
+
+ /*  RESPONSIVE Middel Device */
+ @media screen and (min-width:580px) and (max-width:990px) {
+
+
+    header {
+       padding: 20px 20px;
+    }
+
+    nav li {
+       margin-right: 20px;
+       font-size: 18px;
+    }
+
+    .followbtn {
+       font-size: 20px;
+    }
 
 
     /*  secend section */
 
-
-    /*  RESPONSIVE Small Device */
-    @media screen and (max-width:576px) {
-        
-    
-
-    header{
-        padding: 10px 10px;
-        padding-left: 60px;
-     }
-     .headerdiv{
-       flex-direction: column;
-       margin-bottom: 5px;
+    .main {
+       padding: 30px;
     }
-    .gamerdiv{ 
-            text-align: center;
-            justify-content: center;
-        }
-           nav ul {
-            flex-direction: column;
-            padding: 10px 0;
-            text-align: center;
-            
-        } 
-        ul li{
-            margin: 30px;
-        }
-       nav ul li .followbtn{
-            margin-top: 40px;
-        }
-         /* .about{
-           
-           margin-bottom: 50px; 
-        } */
-        .gamerdiv{
-            font-size: 40px;
-        }
-        #navimg{
-            height: 35px;
-            width: 60px;
-       
-        }
+
+    .playgoat {
+
+       padding-top: 30px;
+       padding-bottom: 10px;
+       padding-left: 10px;
+       align-items: center;
     }
+
+    .Groupimg {
+       height: 400px;
+       width: 450px;
+       margin-left: 60px;
+    }
+
+    .secenddiv {
+       padding: 20px;
+       background-size: 400px 440px;
+    }
+
+    .sign,
+    .rogue {
+       font-size: 10px;
+
+       padding: 10px 17px;
+
+       margin-right: 10px;
+    }
+
+    .btndiv {
+       display: flex;
+
+    }
+
+    /*  third section */
+    .thirddiv {
+
+       padding: 30px;
+
+    }
+
+    /*  four section */
+    .mainimgdiv {
+       display: grid;
+       grid-template-columns: repeat(2, 2fr);
+       text-align: center;
+       padding: 20px;
+    }
+
+    .imgdiv3 {
+       height: 250px;
+       width: 300px;
+       margin-right: 20px;
+    }
+
+    .font3 {
+       font-size: 15px;
+
+    }
+
+    /* fifth section */
+
+    .fifthdiv {
+       padding: 50px;
+
+       text-align: center;
+
+    }
+
+    /*   six section  */
+    .backround-color {
+
+       padding: 40px;
+    }
+
+
+ }
