@@ -210,6 +210,7 @@
  .imgdiv5 {
    width: 50%;
    margin: 0px auto;
+   padding-bottom: 70px;
 
     display: inline-block;
  }
@@ -682,17 +683,90 @@ padding: 20px 20px 20px 40px;
 
     /* fifth section */
 
-    .fifthdiv {
+    /* .fifthdiv {
        padding: 50px;
 
        text-align: center;
 
-    }
+    } */
+
+
+
+
+    .fifth-text {
+      padding: 30px;
+   }
+
+   .fifthdiv {
+
+      flex-direction: column;
+      text-align: center;
+
+   }
+
+   .imgdiv5 {
+      width: 50%;
+      margin: auto;
+      text-align: center;
+   }
+
+   .imgdiv5-1 {
+      height: 300px;
+      width: 230px;
+      position: absolute;
+   }
+
+   .imgdiv5-2 {
+      bottom: -200px;
+      left: -30px;
+      position: relative;
+
+      height: 170px;
+      width: 150px;
+padding-bottom: 70px;
+   }
+
 
     /*   six section  */
+    .icon1 {
+      align-items: center;
+  
+      display: flex;
+      
+      padding-right: 10px;
+  
+      margin: 20px;
+      border-radius: 30px;
+      height: 50px;
+      width: 130px;
+      margin-bottom: 10px;
+   }
+  
+   .iconsize {
+      height: 40px;
+      width: 40px;
+   }
+  
+
+
+
+
+
+
+
     .backround-color {
 
-       padding: 40px;
+       padding: 0px;
+    }
+
+    .mainicondiv1 {
+      /* height: 10px; */
+
+       grid-template-columns: repeat(3, 1fr);
+
+       margin-bottom: 150px;
+       margin: 10px;
+
     }
 
 
