@@ -1,0 +1,36 @@
+ header{
+    padding: 20px 120px;
+ }
+ .gamerdiv{
+    display: flex;
+    align-items: center;
+ }
+ #navimg{
+height: 25px;
+width: 50px;
+ 
+ }
+ .headerdiv{
+    display: flex;
+    justify-content: space-between;
+ }
+ nav ul{
+    display: flex;
+    list-style: none;
+ }
+ nav li{
+    margin-right: 30px;
+    font-size: 20px;
+ }
+ nav li a{
+    text-decoration: none;
+   
+ }
+
+ .followbtn{
+    background-color: darkgray;
+     
+ }
+
+
+    /*  secend section */
