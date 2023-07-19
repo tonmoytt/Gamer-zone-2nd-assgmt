@@ -165,7 +165,7 @@
  }
  figure{
    text-align: center;
-   position: relative;
+   position: relative; 
    bottom: 150px;
    color: red;
    /* background-color: rgb(129, 127, 127); */
@@ -261,10 +261,7 @@
     padding: 50px 120px;
  }
 
- /* .mainicondiv1{
-    display: flex;
-    justify-content: space-between;
-   } */
+  
  .mainicondiv1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -455,6 +452,7 @@ padding: 20px 20px 20px 40px;
 
     .box-padding {
        text-align: center;
+        
     }
 
     /*  four section */
@@ -513,18 +511,56 @@ padding: 20px 20px 20px 40px;
 
 
     /*   six section  */
+
+
+    .icon1 {
+      align-items: center;
+  
+      display: flex;
+      
+      padding-right: 10px;
+  
+      margin: 20px;
+      border-radius: 30px;
+      height: 50px;
+      width: 100px;
+      margin-bottom: 50px;
+   }
+  
+   .iconsize {
+      height: 40px;
+      width: 40px;
+   }
+  
+
+
+
+
+
+
+
     .backround-color {
 
-       padding: 20px;
+       padding: 0px;
     }
 
     .mainicondiv1 {
+      /* height: 10px; */
 
        grid-template-columns: repeat(3, 1fr);
 
        margin-bottom: 150px;
+       margin: 10px;
 
     }
+
+    /* .mainicondiv1 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      
+      margin-bottom: 150px;
+  
+   } */
 
     .phonediv1 {
        display: flex;
